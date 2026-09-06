@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+workspace/*
+!workspace/.gitkeep

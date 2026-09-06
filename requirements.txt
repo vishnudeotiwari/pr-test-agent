@@ -1,0 +1,6 @@
+PyGithub>=2.5,<3
+GitPython>=3.1,<4
+python-dotenv>=1.0,<2
+pydantic>=2.8,<3
+requests>=2.32,<3
+openai>=1.100,<2
