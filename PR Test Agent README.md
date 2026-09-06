@@ -404,7 +404,7 @@ python -m app.stage1 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 Example:
 
 ```powershell
-python -m app.stage1 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage1 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 ```
 
 Expected output resembles:
@@ -445,7 +445,7 @@ python -m app.stage2 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 Example:
 
 ```powershell
-python -m app.stage2 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage2 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 ```
 
 The resulting test plan is saved in the workspace.
@@ -471,7 +471,7 @@ python -m app.stage3 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 Example:
 
 ```powershell
-python -m app.stage3 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage3 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 ```
 
 Generated tests are written into the cloned repository workspace.
@@ -522,7 +522,7 @@ python -m app.stage4 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 Example:
 
 ```powershell
-python -m app.stage4 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage4 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 ```
 
 A successful result contains:
@@ -569,7 +569,7 @@ python -m app.stage5 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 Example:
 
 ```powershell
-python -m app.stage5 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage5 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 ```
 
 The generated branch follows the pattern:
@@ -603,15 +603,15 @@ cd "C:\Users\vishn\Downloads\pr-test-agent-stage1\pr-test-agent"
 
 .\.venv\Scripts\Activate.ps1
 
-python -m app.stage1 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage1 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 
-python -m app.stage2 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage2 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 
-python -m app.stage3 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage3 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 
-python -m app.stage4 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage4 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 
-python -m app.stage5 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage5 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 ```
 
 ---
@@ -621,7 +621,7 @@ python -m app.stage5 --pr https://github.com/vishnudeotiwari/spring-boot-project
 Suppose the original PR is:
 
 ```text
-https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+https://github.com/OWNER/REPOSITORY/pull/NUMBER
 ```
 
 Original PR:
@@ -973,7 +973,7 @@ STAGE 5 COMPLETE
 Test branch      : pr-1-tests
 Commit           : 794d0a51fdfe2443e99b6b466ba65eeed1c5a87d
 Test PR          : #2
-Test PR URL      : https://github.com/vishnudeotiwari/spring-boot-project/pull/2
+Test PR URL      : https://github.com/OWNER/REPOSITORY/pull/NUMBER
 Test PR target   : testpr
 ```
 
@@ -1087,13 +1087,13 @@ python -m app.stage5 --pr <PR_URL>
 For the current test repository:
 
 ```powershell
-python -m app.stage1 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage1 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 
-python -m app.stage2 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage2 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 
-python -m app.stage3 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage3 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 
-python -m app.stage4 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage4 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 
-python -m app.stage5 --pr https://github.com/vishnudeotiwari/spring-boot-project/pull/1
+python -m app.stage5 --pr https://github.com/OWNER/REPOSITORY/pull/NUMBER
 ```
